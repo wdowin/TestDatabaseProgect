@@ -61,5 +61,7 @@
   <ItemGroup>
     <Build Include="Persons.sql" />
     <Build Include="sp_Persons_Select.sql" />
+    <Build Include="sp_Persons_Insert.sql" />
+    <Build Include="sp_Persons_Update.sql" />
   </ItemGroup>
 </Project>

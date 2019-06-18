@@ -5,5 +5,8 @@ BEGIN
 	SELECT [Persons].[Id]
 		  ,[Persons].[Surname]
 		  ,[Persons].[Name]
+		  ,[Persons].[Patronymic]
+		  ,[Persons].[DateOfBirth]
 	 FROM [dbo].[Persons]
+	 WHERE [Persons].[Id] = @Id;
 END
